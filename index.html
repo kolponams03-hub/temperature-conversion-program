@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temperature Conversion</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <form action="">
@@ -12,9 +13,10 @@
         <input type="radio" name="unit" id="toFahrenhet">
         <label for="toFahrenheit">Celsius ➡️ Fahrenheit</label><br>
         <input type="radio" name="unit" id="toCelsius">
-        <label for="toCelsius">Fahrenheit ➡️ Celsius</label>
+        <label for="toCelsius">Fahrenheit ➡️ Celsius</label> <br>       
         <button type="button" onclick="convert()">Submit</button>
+        <p id="result">Select a unit</p>
     </form>
-    
+    <script src="index.js"></script>
 </body>
 </html>
